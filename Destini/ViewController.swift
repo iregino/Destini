@@ -39,8 +39,7 @@ class ViewController: UIViewController {
     
     var storyIndex = 1
     
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -89,12 +88,9 @@ class ViewController: UIViewController {
         if storyIndex == 4 || storyIndex == 5 || storyIndex == 6 {
             restartButton.isHidden = false
         }
-                
-        // TODO Step 6: Modify the IF-Statement to complete the story
-        
-        
     
     } // End of buttonPressed()
+    
     
     @IBAction func restartPressed(_ sender: UIButton) {
         
@@ -102,6 +98,7 @@ class ViewController: UIViewController {
         
     } // End of restartPressed()
     
+    // Reset all properties when app is restarted
     func restart() {
         
         restartButton.isHidden = true
@@ -112,7 +109,6 @@ class ViewController: UIViewController {
         topButton.isHidden = false
         bottomButton.isHidden = false
 
-        
     } // End of restart()
 
 }
