@@ -1,10 +1,16 @@
 #  Destini
 
-## Our Goal
+## Description
 
-The goal of this tutorial is to get you comfortable with thinking about the state of your app and updating the Views accordingly. In addition, you will be using logic to control the flow of the program. This is a challenge where you’ll solidify your understanding of IF-ELSE statements and comparison operators.
+This app is "choose your own adventure" game similar to the App Store hit "Life Line" app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience.
 
-## What you will create
 
-In this app, you will be creating a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience
+
+## Technology
+
+Swift 4, Xcode 10
+
+## Purpose
+
+This is a tutorial from London App Brewery. The goal of this exercise is to get used to thinking about the state of an app and updating the Views accordingly, and using logic to control the flow of the program.
 
